@@ -9,14 +9,15 @@ sortLetters('HelloWorld', true) 'deHllloorW'
 sortLetters('HelloWorld', false) 'WroolllHed' */
 
 
-console.log(5);
+// console.log(5);
 
 
 function formating(param,trueorfalse){
  
- console.log(param + trueorfalse);
+ var param = 'how are you ';
+
+ console.log(param.sort())
 
 
 }
 
-formating('hello',true);
